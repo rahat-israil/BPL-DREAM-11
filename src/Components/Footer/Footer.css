@@ -1,0 +1,9 @@
+ul li {
+  list-style-type: square;
+}
+
+.bg-image {
+  background-image: url(../../image/bg-shadow.png);
+  background-size: cover;
+}
+

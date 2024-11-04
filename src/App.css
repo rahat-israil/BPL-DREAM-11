@@ -1,0 +1,15 @@
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px; */
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+  
+}
