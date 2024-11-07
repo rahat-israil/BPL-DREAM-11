@@ -33,6 +33,7 @@ const Navbar = ({ coins }) => {
   );
 };
 
+
 Navbar.propTypes = {
   coins: PropTypes.number.isRequired
 };
