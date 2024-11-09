@@ -15,7 +15,6 @@ const Header = ({ addCoins }) => {
         <p className="opacity-70 pb-2">Beyond Boundaries Beyond Limits</p>
         <div className="border-2 w-fit px-1 py-[5px] rounded-xl border-[#E7FE29] mx-auto">
           <button
-            // onClick={handleAddCoins}
             onClick={addCoins}
             className="bg-[#E7FE29] px-5 py-3 text-black font-semibold rounded-xl"
           >
@@ -26,6 +25,7 @@ const Header = ({ addCoins }) => {
     </div>
   );
 };
+
 
 Header.propTypes = {
   addCoins: PropTypes.func.isRequired,
