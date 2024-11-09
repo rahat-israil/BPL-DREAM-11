@@ -16,11 +16,7 @@ const Players = ({ selectPlayer }) => {
 
   return (
     <div>
-      {/* <div className="container mx-auto mt-10">
-        <div className="flex items-center justify-between">
-          <h1 className="font-bold text-xl">Available Players</h1>
-        </div>
-      </div> */}
+      
       <div className="grid grid-cols-3 gap-7 container mx-auto mt-6">
         {players.map(player => (
           <Player
@@ -33,6 +29,7 @@ const Players = ({ selectPlayer }) => {
     </div>
   );
 };
+
 
 Players.propTypes = {
   selectPlayer: PropTypes.func.isRequired,
