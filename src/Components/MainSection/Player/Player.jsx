@@ -40,6 +40,7 @@ const Player = ({ player, selectPlayer }) => {
 };
 
 
+
 Player.propTypes = {
   player: PropTypes.object.isRequired,
   selectPlayer: PropTypes.object.isRequired,
