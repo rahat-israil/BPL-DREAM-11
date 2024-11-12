@@ -16,8 +16,7 @@ const Players = ({ selectPlayer }) => {
 
   return (
     <div>
-      
-      <div className="grid grid-cols-3 gap-7 container mx-auto mt-6">
+      <div className="grid px-5 mx-auto md:grid-cols-2  xl:grid-cols-3 xl:px-0 xl:mx-auto gap-7 container mt-6">
         {players.map(player => (
           <Player
             key={player.playerId}

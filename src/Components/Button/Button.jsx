@@ -4,7 +4,7 @@ import './Button.css'
 const Button = ({ handleIsActiveStatus, isActive, selectedPlayers }) => {
   return (
     <div>
-      <div className="pt-3">
+      <div className="pt-3 pr-3 md:pr-5 xl:pr-0">
         <button
           onClick={() => handleIsActiveStatus('available')}
           className={`${isActive.available ? 'active' : 'btn'} 

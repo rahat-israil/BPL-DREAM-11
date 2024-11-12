@@ -5,9 +5,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="relative">
-      <div className="bg-[#06091A] mt-40 text-white ">
+      <div className="bg-[#06091A] mt-12 md:mt-40 text-white ">
         <div>
-          <img className="w-32 mx-auto pt-40" src={logo} alt="" />
+          <img className="w-32 mx-auto pt-8 md:pt-40" src={logo} alt="" />
         </div>
         {/* Main Div  */}
         <div className="md:flex justify-between w-[90%] mx-auto pt-12 pb-14 space-y-4 md:space-y-0">
