@@ -56,7 +56,7 @@ const Footer = () => {
         </p>
       </div>
       {/* Extra Div on Footer  */}
-      <div className="hidden md:block border-2 bg-gray-100 bg-opacity-30 backdrop-blur-md border-white rounded-xl w-2/3 mx-auto p-4 absolute bottom-[490px] left-56">
+      <div className="hidden md:block border-2 bg-gray-100 bg-opacity-30 backdrop-blur-md border-white rounded-xl w-2/3 mx-auto p-4 absolute bottom-[490px] md:left-32 md:bottom-[510px] xl:left-56 xl:bottom-[490px] lg:left-44 lg:bottom-[480px]">
         <div className="bg-image bg-white bg-opacity-90 rounded-xl p-12">
           <div className="text-center space-y-3">
             <h1 className="text-2xl font-bold">Subscribe to our Newsletter</h1>
