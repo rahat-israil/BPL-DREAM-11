@@ -1,8 +1,7 @@
-// import React from 'react';
+
 import logo from '../../image/logo.png';
 import coin from '../../image/coin.png';
 import PropTypes from 'prop-types';
-// import { useState } from 'react';
 
 const Navbar = ({ coins }) => {
 
