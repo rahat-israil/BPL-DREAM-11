@@ -2,7 +2,7 @@
 
 BPL-DREAM 11 is a React-based cricket team management application that allows users to select and manage players for a custom team. With features like player selection, coin management, and a free credit claim system, BPL-DREAM 11 brings the excitement of building your dream cricket lineup to life.
 
-**Check out the live project here:**   [BPL-DREAM 11](https://dream11-bpl-team.netlify.app/)
+**Check out the live project here:**   [BPL-DREAM 11](https://bpl-dream11-team.netlify.app/)
 
 ## Technologies Used
 
